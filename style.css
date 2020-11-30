@@ -1,0 +1,82 @@
+.displayFlex{
+    display: flex;
+}
+.flexDirectionC{
+    flex-direction: column;
+}
+.displayJustifyContentC
+{
+    justify-content: center;
+}
+.displayJustifyContentSpaceB
+{
+    justify-content: space-between;
+}
+.alignContent{
+    align-content: center;
+}
+.alignItemsC{
+    align-items: center;
+}
+.justifyItems{
+    justify-items: center;
+}
+.alignSelfE{
+    align-self: end;
+}
+.alignSelfC{
+    align-self: center;
+}
+.textAlignC{
+    text-align: center;
+}
+.flexWrap{
+    flex-wrap: wrap;
+}
+.floatRight{
+    float: right;
+}
+.floatLeft{
+    float: left;
+}
+body{
+    background: black;
+    color:orangered;
+}
+.divMain{
+    margin-top: 20px;
+    height: 696px;
+    width: 700px;
+}
+.w-100{
+    width:110px;
+    height: 110px;
+    background: transparent;
+    border:3px solid orangered;
+   perspective:1000px;
+}
+.w-100-flip-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #0b390b;
+    color: #1fd721;
+}
+.flip-card-back {
+    background-color: #2980b9;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+
+
